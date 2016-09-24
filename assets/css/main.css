@@ -279,17 +279,23 @@ body {
   text-decoration: line-through;
 }
 
+.sporocilo {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .centering {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /*font-family: 'Lily Script One', 'Patrick Hand';*/
   font-weight: 400;
-  font-size: 88px;
+  font-size: 66px;
   text-align: center;
-  padding: 30px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -300,6 +306,14 @@ body {
     background-image: url(..//img/bg2.png);
     background-repeat: repeat;
     background-size: 120px auto; }
+  
+  .sporocilo {
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
   .centering {
 	  height: 100vh;
@@ -307,11 +321,10 @@ body {
 	  flex-direction: column;
 	  justify-content: center;
 	  align-items: center;
-	  font-size: 66px;
+	  font-size: 48px;
 	  text-align: center;
-	  padding: 60px;
 	  -webkit-box-sizing: border-box;
-          -moz-box-sizing: border-box;	  
+    -moz-box-sizing: border-box;	  
 	  box-sizing: border-box;
 } }
 
@@ -321,6 +334,14 @@ body {
     background-image: url(..//img/bg2.png);
     background-repeat: repeat;
     background-size: 120px auto; }
+  
+  .sporocilo {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
   .centering {
 	  height: 100vh;
@@ -328,13 +349,14 @@ body {
 	  flex-direction: column;
 	  justify-content: center;
 	  align-items: center;
-	  font-size: 44px;
+	  /*font-family: 'Oleo Script', 'Patrick Hand';*/
+	  font-size: 28px;
 	  text-align: center;
-	  padding: 10px;
 	  -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-	  box-sizing: border-box;
+box-sizing: border-box;
 } }
+
 .wrap-nav {
   display: -webkit-box;
   display: -moz-box;
