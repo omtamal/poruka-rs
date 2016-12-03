@@ -56,11 +56,23 @@ body {
   .sporocilo {
     font-size: 40px;
   }
+
+  .mail {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px
+  } 
 }
 
 @media (max-width: 360px) {
   
   .sporocilo {
     font-size: 20px;
+  }
+
+  .mail {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px
   }
 }
